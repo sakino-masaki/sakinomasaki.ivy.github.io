@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ホラーゲーム紹介サイト</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>ホラーゲーム紹介サイト</h1>
+        <nav>
+            <ul>
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">ゲーム紹介</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="intro">
+            <h2>恐怖の世界へようこそ</h2>
+            <p>ホラーゲーム紹介サイトへようこそ。最新の恐ろしいゲームを見つけて、背筋も凍る冒険に飛び込もう！</p>
+            <a href="#" class="btn">押さないでね</a>
+        </section>
+        
+        <section class="games">
+            <div class="game" onclick="playSound('sound1')">
+                <img src="game1.jpg" alt="ゲーム1">
+                <h3>ゲーム1</h3>
+                <p>ゲーム1の説明文がここに入ります。</p>
+            </div>
+            <div class="game" onclick="playSound('sound2')">
+                <img src="game2.jpg" alt="ゲーム2">
+                <h3>ゲーム2</h3>
+                <p>ゲーム2の説明文がここに入ります。</p>
+            </div>
+            <!-- 他のゲームも同様に追加 -->
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 崎野将希 - ホラーゲーム紹介サイト</p>
+    </footer>
+
+    <audio id="sound1" src="sound1.mp3"></audio>
+    <audio id="sound2" src="sound2.mp3"></audio>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

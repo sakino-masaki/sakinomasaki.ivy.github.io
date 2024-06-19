@@ -1,0 +1,128 @@
+body {
+  font-family: 'Creepster', cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* 背景を黒に */
+  color: #fff; /* テキストを白に */
+}
+
+header {
+  background-color: #111; /* ヘッダーの背景色を濃い黒に */
+  padding: 20px 0;
+  border-bottom: 2px solid #444; /* 灰色のボーダー */
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+  color: #e74c3c; /* タイトルの色を赤に */
+  font-size: 3em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #e74c3c; /* ナビゲーションリンクの色を赤に */
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #c0392b; /* ホバー時の色を暗い赤に */
+}
+
+main {
+  padding: 20px;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.intro h2 {
+  color: #e74c3c; /* 見出しの色を赤に */
+  font-size: 2.5em;
+}
+
+.intro p {
+  color: #ccc; /* テキストの色を灰色に */
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.intro .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e74c3c; /* ボタンの背景色を赤に */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px; /* 角丸を強調 */
+  font-weight: bold;
+  font-size: 1.2em;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* 影を追加 */
+  transition: background-color 0.3s;
+}
+
+.intro .btn:hover {
+  background-color: #c0392b; /* ホバー時の背景色を暗い赤に */
+}
+
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.game {
+  flex: 0 1 300px;
+  margin: 20px;
+  background-color: #222; /* カードの背景色を暗い黒に */
+  padding: 20px;
+  border-radius: 10px; /* 角丸を強調 */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* 影を追加 */
+  border: 2px solid #444; /* 灰色のボーダー */
+  transition: transform 0.3s;
+}
+
+.game:hover {
+  transform: scale(1.05); /* ホバー時の拡大 */
+}
+
+.game img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.game h3 {
+  color: #e74c3c; /* 見出しの色を赤に */
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.game p {
+  color: #ccc; /* テキストの色を灰色に */
+  font-size: 1em;
+}
+
+footer {
+  background-color: #111; /* フッターの背景色を濃い黒に */
+  padding: 20px 0;
+  text-align: center;
+  border-top: 2px solid #444; /* 灰色のボーダー */
+}
+
+footer p {
+  color: #e74c3c; /* テキストの色を赤に */
+}
